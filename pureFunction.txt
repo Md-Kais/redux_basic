@@ -1,0 +1,13 @@
+1.what is pure function?
+ans: A pure function always a produces the same result for the same arguments and is free of side effects.
+
+2.what are the benifits of pure function?
+
+ans: pure functions are easy to debug.easy to test and more scalable, Everything a pure function needs is specified in its arguments. we have to set some global state before tasted them. pure functions dont mutate their argumets or global state. So, we can call them and kow the objects we pass to them do't mutated. there are no surprise. Js is not a pure functional language. 
+
+3.what is the pure functional programming language?
+ans: Clousre and Haskell. Js is not a pure functional language. it's a multiparadigm language.In Functional programming language , the functional programming language , we cannnot change the object. Every object is mutable in functional programming language.
+
+
+**** when we use Redux Reducer , then we have to pass to pure function.
+
